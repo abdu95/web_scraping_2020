@@ -23,3 +23,16 @@ result_u <- unlist(lapply(my_list, my_demo_fun))
 
 result_s <- sapply(my_list, my_demo_fun)
 
+
+# posted_date <- 
+#  file_html %>% 
+#  html_nodes('.c-byline__item span') %>% 
+#  html_text() 
+
+
+# author <- 
+#  file_html %>% 
+#  html_nodes('.c-byline__item') %>% 
+#  .[[2]] %>% 
+#  html_text() 
+
