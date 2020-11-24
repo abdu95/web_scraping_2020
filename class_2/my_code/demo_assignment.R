@@ -1,3 +1,24 @@
+
+
+# posted_date <- 
+#  file_html %>% 
+#  html_nodes('.c-byline__item span') %>% 
+#  html_text() 
+
+
+# author <- 
+#  file_html %>% 
+#  html_nodes('.c-byline__item') %>% 
+#  .[[2]] %>% 
+#  html_text() 
+
+paste0('https://insidebigdata.com/page/', 2:5, '/?s=big+data')
+# character vector of 4 items
+item <- paste0('https://insidebigdata.com/page/', 2:5, '/?s=big+data')       
+str(item)
+class(item)
+
+
 results <- file_html %>% html_nodes('.c-byline__item')
 
 second_result <- results[2]

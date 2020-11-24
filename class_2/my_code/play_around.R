@@ -1,9 +1,3 @@
-paste0('https://insidebigdata.com/page/', 2:5, '/?s=big+data')
-# character vector of 4 items
-item <- paste0('https://insidebigdata.com/page/', 2:5, '/?s=big+data')       
-str(item)
-class(item)
-
 # Can vector contain integer and char? No, it will convert integer to char also and creates vector of characters
 check_v <- c(1, "a")
 # Can vector contain a vector inside? No, it will convert inner vector elements into chars of outer vector
@@ -23,16 +17,5 @@ result_u <- unlist(lapply(my_list, my_demo_fun))
 
 result_s <- sapply(my_list, my_demo_fun)
 
-
-# posted_date <- 
-#  file_html %>% 
-#  html_nodes('.c-byline__item span') %>% 
-#  html_text() 
-
-
-# author <- 
-#  file_html %>% 
-#  html_nodes('.c-byline__item') %>% 
-#  .[[2]] %>% 
-#  html_text() 
-
+# assignment hint:
+author[seq(1, length(author), 3)]
