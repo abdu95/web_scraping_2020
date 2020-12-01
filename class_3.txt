@@ -1,0 +1,8 @@
+
+https://www.economist.com/finance-and-economics/?page=3
+http://jsonviewer.stack.hu/
+
+https://github.com/misrori/web_scraping_2020/blob/main/class_3/task_with_yachts.R
+https://www.boatinternational.com/yachts-for-sale/rainbow--80615
+https://www.ultimatespecs.com/
+https://www.ultimatespecs.com/car-specs/Peugeot/122261/Peugeot-Expert-Traveller-e-Traveller-Long-50kWh-VIP.html
